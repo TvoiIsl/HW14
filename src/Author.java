@@ -8,7 +8,7 @@ public class Author {
     public String getNameAuthor() {
         return nameAuthor;
     }
-
+    @Override
     public String toString() {
         return nameAuthor;
     }
@@ -20,7 +20,6 @@ public class Author {
         Author author1 = (Author) other;
         return nameAuthor.equals(author1.nameAuthor);
     }
-
     public int hashCode() {
         return java.util.Objects.hash(nameAuthor);
     }
