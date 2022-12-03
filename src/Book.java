@@ -28,7 +28,7 @@ public class Book {
 
     @Override
     public String toString() {
-        return bookName + authorName + publishingYear;
+        return bookName +" "+ authorName +" "+ publishingYear;
     }
 
     @Override
